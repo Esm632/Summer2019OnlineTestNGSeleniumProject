@@ -53,6 +53,7 @@ public class CalenderEventsTests {
     }
     @AfterMethod
     public void teardown(){
+           System.out.println("esma");
         driver.quit();
     }
 }
